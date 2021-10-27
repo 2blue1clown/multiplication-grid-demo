@@ -14,7 +14,7 @@ function Home() {
     <h2 className="text-3xl mt-4">Demo</h2>
     <InteractiveGrid cols={cols} />
     <div className='flex flex-col items-center space-y-3'>
-      <div className='flex justify-center space-x-3'>
+      <div className='flex justify-center mt-4 space-x-3'>
         {options.map(number => (
           <Button key={`${number}`} text={`${number}`} onClick={() => setCols(number)} />
         ))}
@@ -22,7 +22,7 @@ function Home() {
     </div>
 
     <h2 className='text-3xl mt-4 text-left'><strong>Explanation</strong></h2>
-    <div className='w-1/2 text-left'>
+    <div className='w-1/2 min-w-96 text-left'>
     <p className="my-4">
       Understanding the grid representation of multiplication helps draw the link between multiplication and repeated addition. <br /><br />
       
