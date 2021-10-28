@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/multiplication-grid-demo/static/css/main.07289e9c.chunk.css",
-    "main.js": "/multiplication-grid-demo/static/js/main.fd67cc29.chunk.js",
-    "main.js.map": "/multiplication-grid-demo/static/js/main.fd67cc29.chunk.js.map",
+    "main.css": "/multiplication-grid-demo/static/css/main.31cf834b.chunk.css",
+    "main.js": "/multiplication-grid-demo/static/js/main.a3b282f9.chunk.js",
+    "main.js.map": "/multiplication-grid-demo/static/js/main.a3b282f9.chunk.js.map",
     "runtime-main.js": "/multiplication-grid-demo/static/js/runtime-main.f273e7e8.js",
     "runtime-main.js.map": "/multiplication-grid-demo/static/js/runtime-main.f273e7e8.js.map",
     "static/js/2.831df735.chunk.js": "/multiplication-grid-demo/static/js/2.831df735.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.63ba8663.chunk.js": "/multiplication-grid-demo/static/js/3.63ba8663.chunk.js",
     "static/js/3.63ba8663.chunk.js.map": "/multiplication-grid-demo/static/js/3.63ba8663.chunk.js.map",
     "index.html": "/multiplication-grid-demo/index.html",
-    "static/css/main.07289e9c.chunk.css.map": "/multiplication-grid-demo/static/css/main.07289e9c.chunk.css.map",
+    "static/css/main.31cf834b.chunk.css.map": "/multiplication-grid-demo/static/css/main.31cf834b.chunk.css.map",
     "static/js/2.831df735.chunk.js.LICENSE.txt": "/multiplication-grid-demo/static/js/2.831df735.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f273e7e8.js",
     "static/js/2.831df735.chunk.js",
-    "static/css/main.07289e9c.chunk.css",
-    "static/js/main.fd67cc29.chunk.js"
+    "static/css/main.31cf834b.chunk.css",
+    "static/js/main.a3b282f9.chunk.js"
   ]
 }
