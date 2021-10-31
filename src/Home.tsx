@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import InteractiveGrid from './Components/InteractiveGrid'
 import Button from './Components/Button'
+import RandomQuote from './Components/RandomQuote';
 
 function Home() {
 
@@ -43,8 +44,10 @@ function Home() {
     </ol>
     <br />
     <p>The idea is that the tutor and student interact with each other while using the grid as a reference point.</p>
-  </div>
+  <br />
+  <RandomQuote />
   <br /><br />
+  </div>
   </div>
   )
 }
