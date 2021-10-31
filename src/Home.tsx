@@ -13,8 +13,10 @@ function Home() {
     <hr className='w-1/2'/>
     <h2 className="text-3xl mt-4">Demo</h2>
     <InteractiveGrid cols={cols} />
-    <div className='flex flex-col items-center space-y-3'>
-      <div className='flex justify-center mt-4 space-x-3'>
+    <div className='flex flex-col items-center space-y-3 border border-pr rounded-lg pt-3 pb-4 px-3 shadow-md'>
+      <p> Set Columns </p>
+      <div className='flex justify-center mt-2 space-x-3 '>
+        
         {options.map(number => (
           <Button key={`${number}`} text={`${number}`} onClick={() => setCols(number)} />
         ))}

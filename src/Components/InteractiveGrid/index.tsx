@@ -31,6 +31,11 @@ function InteractiveGrid(props: InteractiveGridProps) {
     setRows(updatedRows)
   }
 
+  function oneRow() {
+    const updatedRows = [rows[0]]
+    setRows(updatedRows)
+  }
+
   function stabilize() {
     const updatedRows = [...rows]
     for (let i = 0; i < rows.length; i++) {
@@ -58,6 +63,7 @@ function InteractiveGrid(props: InteractiveGridProps) {
       {rowList}
       <div className="flex justify-center space-x-3">
       <Button text="+" onClick={() => addRow()} />
+      <Button text="reset" onClick={() => oneRow()} />
       <form onSubmit={handleSubmit}>
         <input type='text'
           className="border border-transparent outline-none rounded-lg text-center h-10"

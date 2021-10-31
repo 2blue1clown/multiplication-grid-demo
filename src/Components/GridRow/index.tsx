@@ -16,26 +16,16 @@ function GridRow(props: RowProps) {
     }
   }
 
-  let color:string;
 
 
-  switch(props.state){
-    case "unstable":
-      color = "primary"
-      break;
-    case "stable":
-      color= "secondary"
-      break;
-  }
 
   const style = 'flex '+animation;
 
-  const elements = Array(props.cols).fill({ color: color });
+  const elements = Array(props.cols).fill({});
 
   const elementList = elements.map(((ele,index) => (
     <GridElement
       key={index} 
-      color={ele.color}
     />
   )));
 
